@@ -1,0 +1,61 @@
+/*内容栏*/
+.photo-con{
+	width: 100%;
+	text-align: center;
+	border-top:1px solid #DDDDDD;
+	box-sizing:border-box;
+	padding-top: 20px;
+}
+.photo-head h1{
+	font-weight: bolder;
+	font-size:40px;
+}
+.photo-head>p:nth-child(3){
+	margin-top: 20px;
+}
+.photo-content{
+	text-align: left;
+	display: table;
+	box-sizing:border-box;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: url(../img/wap_line.jpg) center 0 no-repeat;
+}
+.pho-img{
+	width: 36%;
+	display: table-cell;
+}
+.photo-content img{
+	width: 100%;
+}
+.content-bot{
+	width: 64%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.content-bot h3{
+	display: inline-block;
+	margin-bottom:15px;
+	margin-top: 0px;
+}
+.content-bot p{
+	display: inline-block;
+}
+@media screen and (min-width:992px) and (max-width:1130px){
+	.photo-head>h1{
+		font-size:35px;
+	}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+	.photo-head>h1{
+		font-size: 30px;
+	}
+}
+@media screen and (min-width:0px) and (max-width:768px){
+	.photo-head>h1{
+		font-size: 25px;
+	}
+	.content-bot>h3{
+		font-size: 20px;
+	}
+}
